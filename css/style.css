@@ -1,0 +1,136 @@
+html , body {
+	height: 100%;
+	width: 100%;
+	background-color:#f05f40;
+	/*font-family:Lora;*/
+}
+
+.navbar {
+	background-color: #23415c;
+	padding: 1% 0;
+	font-size: 1.5em;
+}
+
+.navbar-brand {
+	height: 55px;
+  	width: 55px;
+	padding: 0;
+}
+
+.logo {
+	width: 55px;
+	height: auto;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #d5d5d5;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+	color: #FFF;
+}
+
+#home {
+	background: url(../img/pic1.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover; 
+}
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.title {
+	color: #FFF;
+}
+
+.landing-text h1 {
+	font-size: 500%;
+	font-weight: 700;
+	
+}
+
+.padding {
+	padding: 80px 0;
+}
+
+.padding img {
+	width: 100%;
+}
+
+#projects {
+	background-color: #FFF;
+}
+
+.project-img {
+	width: 300px;
+	height: 150px;
+}
+
+footer {
+	width: 100%;
+	background-color: #23415c;
+	padding: 5% 5% 10% 5%;
+	color: #fff;
+}
+
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: #FFF;
+}
+
+.fa:hover {
+	color: #d5d5d5;
+	text-decoration: none;
+}
+
+.icon {
+	max-width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+	.name {
+		font-size: 300%;
+	}
+	.title {
+		font-size: 150%;
+	}
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.icon {
+		padding-top: 5%;
+		max-width: 100px;
+	}
+}
+
+@media screen and (min-width:768px ) {
+	.name {
+		font-size: 400%;
+	}
+	.title {
+		font-size:200%;
+	}
+}
+
+@media screen and (min-width:900px ) {
+	.name {
+		font-size: 500%;
+	}
+	.title {
+		font-size:250%;
+	}
+}
+
+.copyright {
+  padding: 10px;
+  color: #FFF;
+  background-color: #23416c;
+}
