@@ -101,6 +101,9 @@ footer {
 	.title {
 		font-size: 150%;
 	}
+	.info {
+               font-size:100%;
+        }
 	.fa {
 		font-size: 20px;
 		padding: 10px;
@@ -118,6 +121,9 @@ footer {
 	.title {
 		font-size:200%;
 	}
+	.info {
+               font-size:150%;
+        }
 }
 
 @media screen and (min-width:900px ) {
@@ -127,6 +133,9 @@ footer {
 	.title {
 		font-size:250%;
 	}
+	.info {
+                font-size:200%;
+        }
 }
 
 .copyright {
